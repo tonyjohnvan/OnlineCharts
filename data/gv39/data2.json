@@ -1,0 +1,171 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Test Chart Data 02",
+      "theme": "1",
+      "rows": [
+        {
+          "id": "row1",
+          "title": "Simultaneous detection of multiple analytes on the same disposable (multiplexing) (RI=102)",
+          "point": [
+            {
+              "id": "1",
+              "value": -89,
+              "Tag": "Can process test only for Malaria & Dengue"
+            },
+            {
+              "id": "2",
+              "value": -65,
+              "Tag": "Can process test only for Malaria & Dengue"
+            },
+            {
+              "id": "3",
+              "value": -43,
+              "Tag": "Can process test only for Malaria & Dengue"
+            },
+            {
+              "id": "4",
+              "value": 0,
+              "Tag": "Can process test only for Malaria & Dengue"
+            },
+            {
+              "id": "5",
+              "value": 12,
+              "Tag": "Can process test only for Malaria & Dengue"
+            },
+            {
+              "id": "6",
+              "value": 34,
+              "Tag": "Can process test only for Malaria & Dengue"
+            },
+            {
+              "id": "7",
+              "value": 67,
+              "Tag": "Can process test only for Malaria & Dengue"
+            }
+          ]
+        },
+        {
+          "id": "row2",
+          "title": "Inbuilt data printing capabilities (RI=112)",
+          "point": [
+            {
+              "id": "1",
+              "value": -41,
+              "Tag": "No printing capabilities"
+            },
+            {
+              "id": "2",
+              "value": -21,
+              "Tag": "No printing capabilities"
+            },
+            {
+              "id": "3",
+              "value": 12,
+              "Tag": "Capable of connecting to local printers wirelessly"
+            },
+            {
+              "id": "4",
+              "value": 54,
+              "Tag": "Instrument can print  directly"
+            }
+          ]
+        },
+        {
+          "id": "row3",
+          "title": "Specificity for Dengue (NS1 and IgM/IgG) (RI=98)",
+          "point": [
+            {
+              "id": "1",
+              "value": -83,
+              "Tag": "Provides Specificity of 75%"
+            },
+            {
+              "id": "2",
+              "value": -21,
+              "Tag": "Provides Specificity of 80%"
+            },
+            {
+              "id": "3",
+              "value": 0,
+              "Tag": "Provides Specificity of 85%"
+            },
+            {
+              "id": "4",
+              "value": 32,
+              "Tag": "Provides Specificity of 90%"
+            },
+            {
+              "id": "5",
+              "value": 65,
+              "Tag": "Provides Specificity of 100%"
+            },
+            {
+              "id": "6",
+              "value": 100,
+              "Tag": "Provides Specificity of 100%"
+            }
+          ]
+        },
+        {
+          "id": "row4",
+          "title": "Sensitivity for Dengue (NS1 and IgM/IgG)  (RI=87)",
+          "point": [
+            {
+              "id": "1",
+              "value": 0,
+              "Tag": "Provides Sensitivity of 80% for Dengue (NS1 and IgM/IgG)"
+            },
+            {
+              "id": "2",
+              "value": 24,
+              "Tag": "Provides Sensitivity of 90%"
+            },
+            {
+              "id": "3",
+              "value": 61,
+              "Tag": "Provides Sensitivity of 95%"
+            },
+            {
+              "id": "4",
+              "value": 100,
+              "Tag": "Provides Sensitivity of 100%"
+            }
+          ]
+        },
+        {
+          "id": "row5",
+          "title": "Inbuilt data printingcapabilities (RI=101)",
+          "point": [
+            {
+              "id": "1",
+              "value": -86,
+              "Tag": "Provides Specificity"
+            },
+            {
+              "id": "2",
+              "value": -63,
+              "Tag": "Provides Sensitivity"
+            },
+            {
+              "id": "3",
+              "value": 12,
+              "Tag": "Instrument can print indirectly"
+            },
+            {
+              "id": "4",
+              "value": 56,
+              "Tag": "Instrument can print indirectly"
+            },
+            {
+              "id": "5",
+              "value": 100,
+              "Tag": "Instrument can print indirectly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
