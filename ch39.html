@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>OSMPS Online Chart v39</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/nonresponsive.css" rel="stylesheet">
+    <link href="assets/css/ch39.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">CH39</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <!--<li><a href="#">Link</a></li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Action <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Theme 1</a></li>
+                        <li><a href="#">Theme 2</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Toggle Lines</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Toggle Live Updates</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li><a href="#">Link</a></li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Data <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Data 1</a></li>
+                        <li><a href="#">Data 2</a></li>
+                        <li><a href="#">Data 3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Real Data</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<div class="container page-content">
+    <div class="vertical-zero"></div>
+    <div class="coordinate noselect">
+        <span>100</span><span>90</span><span>80</span><span>70</span><span>60</span><span>50</span><span>40</span><span>30</span><span>20</span><span>10</span><span>0</span><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span><span>60</span><span>70</span><span>80</span><span>90</span><span>100</span>
+    </div>
+    <div class="graph-wrapper noselect">
+        <ul class="data-wrapper">
+            <li class="one-row">
+                <h1 class="row-label" contenteditable="true">
+                    Simultaneous detection of multiple analytes on the same disposable (multiplexing) (RI=102)
+                </h1>
+
+                <div class="color-meter" style="margin-left:calc(150px + 45px);width:calc(588px + 55px)"></div>
+                <ul class="data-points-wrap">
+                    <li class="data-point red" style="left: 150px;" id="dr1p1">
+                        <label for="dr1p1" class="point-label up noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                    <li class="data-point red" style="left: 200px;" id="dr1p2">
+                        <label for="dr1p2" class="point-label down noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                    <li class="data-point red" style="left: 260px;" id="dr1p3">
+                        <label for="dr1p3" class="point-label up noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                    <li class="data-point yellow" style="left: 335px;" id="dr1p4">
+                        <label for="dr1p4" class="point-label down noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                    <li class="data-point green" style="left: 450px;" id="dr1p5">
+                        <label for="dr1p5" class="point-label up noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                    <li class="data-point green" style="left: 520px;" id="dr1p6">
+                        <label for="dr1p6" class="point-label down noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                    <li class="data-point green" style="left: 588px;" id="dr1p7">
+                        <label for="dr1p7" class="point-label up noselect">Can process test only for Malaria & Dengue</label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="coordinate noselect">
+        <span>100</span><span>90</span><span>80</span><span>70</span><span>60</span><span>50</span><span>40</span><span>30</span><span>20</span><span>10</span><span>0</span><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span><span>60</span><span>70</span><span>80</span><span>90</span><span>100</span>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/ch39.js"></script>
+</body>
+</html>
