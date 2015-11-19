@@ -5,14 +5,7 @@
 var jsonPath = 'data/gv39/data.json';
 var dataToUse;
 
-$.getJSON(jsonPath)
-    .done(function (json) {
-        prepareChartWithData(json)
-    })
-    .fail(function (error) {
-        console.log(error);
-    })
-;
+changeData(1);
 
 $(window).load(function () {
 });
