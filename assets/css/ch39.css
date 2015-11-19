@@ -48,7 +48,7 @@
     position: absolute;
     margin-left: calc(155px + 35.438px*11 - 35.438px/2 + 3px);
     margin-top: 30px;
-    background: rgba(254, 254, 254, 0.66);
+    background: rgba(254, 254, 254, 0.2);
     z-index: 100;
 }
 .data-points-wrap{
@@ -87,7 +87,7 @@
 .point-label{
     position: absolute;
     display: block;
-    width: 100px;
+    width: 120px;
     height: 50px;
     color: white;
     font-size: 11px;
