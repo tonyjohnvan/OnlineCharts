@@ -73,6 +73,7 @@ function prepareTableWithData(json, callback) {
     }
 }
 function formatData(type){
+    var allCells = $('.dataValue');
     switch (type) {
         case 1:
         {
