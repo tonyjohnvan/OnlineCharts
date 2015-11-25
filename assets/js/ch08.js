@@ -90,7 +90,7 @@ function formatData(type){
             // percent
             for (var i=0; i<allCells.length; i++){
                 var temp = $(allCells[i]);
-                temp.html("%" + temp.html())
+                temp.html("$" + temp.html())
             }
             //allCells.html( "$" + allCells.html());
         }
