@@ -34,7 +34,7 @@ function loadData(num) {
         .done(function (json) {
             prepareTableWithData(json, function () {
                 findMinMax(dataToUse.sortType);
-                //formatData(num);
+                formatData(num);
             })
         })
         .fail(function (error) {
@@ -78,12 +78,21 @@ function formatData(type){
         case 1:
         {
             // percent
-            allCells.html(allCells.html() + "%");
+            for (var i=0; i<allCells.length; i++){
+                var temp = $(allCells[i]);
+                temp.html(temp.html() + "%")
+            }
+            //allCells.html(allCells.html() + "%");
         }
             break;
         case 2:
         {
-            allCells.html( "$" + allCells.html());
+            // percent
+            for (var i=0; i<allCells.length; i++){
+                var temp = $(allCells[i]);
+                temp.html("%" + temp.html())
+            }
+            //allCells.html( "$" + allCells.html());
         }
             break;
         default :
