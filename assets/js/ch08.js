@@ -34,6 +34,7 @@ function loadData(num) {
         .done(function (json) {
             prepareTableWithData(json, function () {
                 findMinMax(dataToUse.sortType);
+                formatData(num);
             })
         })
         .fail(function (error) {
@@ -61,7 +62,7 @@ function prepareTableWithData(json, callback) {
         targetRow
             .append("<td class='row-header'>" + dataToUse.rows[i].content + "</td>")
         for (var j = 0; j < dataToUse.numberOfCols; j++) {
-            targetRow.append("<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" + (dataToUse.data[i].values[j].value + "%") + "</td>");
+            targetRow.append("<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" + (dataToUse.data[i].values[j].value) + "</td>");
         }
     }
 
@@ -71,7 +72,25 @@ function prepareTableWithData(json, callback) {
         callback();
     }
 }
-
+function formatData(type){
+    switch (num) {
+        case 1:
+        {
+            // percent
+            allCells.html(allCells.html() + "%");
+        }
+            break;
+        case 2:
+        {
+            allCells.html( "$" + allCells.html());
+        }
+            break;
+        default :
+        {
+            jsonPath = 'data/gv08/data.json';
+        }
+    }
+}
 function findMinMax(type) {
     $(".dataValue").removeClass('color-green').removeClass('color-red');
     switch (type) {
