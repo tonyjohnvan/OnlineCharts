@@ -8,10 +8,13 @@ var dataToUse;
 changeData(1);
 
 $(window).load(function () {
+    $('.data-point').delegate('point-label', 'dbclick', function(){
+        $('.point-label').attr('contenteditable','true');
+    })
 });
 
 
-function prepareChartWithData(json) {
+function prepareChartWithData(json, callback) {
     dataToUse = json.data[0];
     var dataWrapper = $(".data-wrapper");
     dataWrapper.html('');
@@ -39,7 +42,7 @@ function prepareChartWithData(json) {
             var labelPos = j % 2 == 0 ? "up" : "down";
             rowInner.append(
                     '<li class="data-point ' + color + '" style="left: ' + adjustedPos + 'px;" id="d' + dataToUse.rows[i].id + 'p' + dataToUse.rows[i].point[j].id + '">' +
-                    '<label for="d' + dataToUse.rows[i].id + 'p' + dataToUse.rows[i].point[j].id + '" class="point-label ' + labelPos + ' noselect">' +
+                    '<label for="d' + dataToUse.rows[i].id + 'p' + dataToUse.rows[i].point[j].id + '" class="point-label ' + labelPos + ' noselect"  contenteditable="true">' +
                     dataToUse.rows[i].point[j].Tag +
                     '</label>' +
                     '</li>'
@@ -124,7 +127,13 @@ function prepareChartWithData(json) {
     }
 
     // rearrange the vertical zero line
-    $('.vertical-zero').height(( 110 + 15 * 2 ) * dataToUse.rows.length);
+    $('.vertical-zero').height(( 90 + 15 * 2 ) * dataToUse.rows.length);
+
+
+    // call back function
+    if (callback && typeof(callback) === "function") {
+        callback();
+    }
 }
 
 function changeData(num) {
@@ -146,10 +155,55 @@ function changeData(num) {
     }
     $.getJSON(jsonPath)
         .done(function (json) {
-            prepareChartWithData(json)
+            prepareChartWithData(json,function(){
+                $('.point-label').draggable();
+//                $('.point-label').resizable({
+//                    handles: 'ne, se, sw, nw, s, w, e, n'
+//                });
+            })
         })
         .fail(function (error) {
             console.log(error);
         })
     ;
+}
+
+function changeToTheme(num){
+    switch (num) {
+        case 1 :
+        {
+            $('.one-row').css({
+                'background': '#ffffff'
+            });
+            $('.row-label').css({
+                'color':'#222'
+            });
+            $('.data-point label').css({
+                'color':'#111'
+            });
+            $('.vertical-zero').css({
+                'background':'rgba(0,0,0,0.1)'
+            })
+        }
+            break;
+        case 2 :
+        {
+            $('.one-row').css({
+                'background': '#39424C'
+            });
+            $('.row-label').css({
+                'color':'#222'
+            });
+            $('.data-point label').css({
+                'color':'#111'
+            });
+            $('.vertical-zero').css({
+                'background':'rgba(0,0,0,0.1)'
+            })
+        }
+            break;
+        default :
+        {
+        }
+    }
 }

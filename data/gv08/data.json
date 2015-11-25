@@ -1,0 +1,316 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "chart 1",
+            "numberOfRows": 9,
+            "numberOfCols": 7,
+            "sortType":1,
+            "columns": [
+                {
+                    "id": 1,
+                    "content": "Lorem Ipsum 1"
+                },
+                {
+                    "id": 2,
+                    "content": "Lorem Ipsum 2"
+                },
+                {
+                    "id": 3,
+                    "content": "Lorem Ipsum 3"
+                },
+                {
+                    "id": 4,
+                    "content": "Lorem Ipsum 4"
+                },
+                {
+                    "id": 5,
+                    "content": "Lorem Ipsum 5"
+                },
+                {
+                    "id": 6,
+                    "content": "Lorem Ipsum 6"
+                },
+                {
+                    "id": 7,
+                    "content": "Lorem Ipsum 7"
+                }
+
+            ],
+            "rows": [
+                {
+                    "id": 1,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 102 )"
+                },
+                {
+                    "id": 2,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 103 )"
+                },
+                {
+                    "id": 3,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 104 )"
+                },
+                {
+                    "id": 4,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 105 )"
+                },
+                {
+                    "id": 5,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 106 )"
+                },
+                {
+                    "id": 6,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 107 )"
+                },
+                {
+                    "id": 7,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 108 )"
+                },
+                {
+                    "id": 8,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 109 )"
+                },
+                {
+                    "id": 9,
+                    "content": "Simultaneous detection of multiple analyses on the same disposable ( RI = 110 )"
+                }
+            ],
+            "data": [
+                {
+                    "id": "row1",
+                    "values": [
+                        {
+                            "value": 40
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 80
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "row2",
+                    "values": [
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 80
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 30
+                        }
+                    ]
+                },
+                {
+                    "id": "row3",
+                    "values": [
+                        {
+                            "value": 40
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 80
+                        },
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 50
+                        }
+                    ]
+                },
+                {
+                    "id": "row4",
+                    "values": [
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 40
+                        },
+                        {
+                            "value": 30
+                        },
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 10
+                        },
+                        {
+                            "value": 20
+                        }
+                    ]
+                },
+                {
+                    "id": "row5",
+                    "values": [
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 30
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 20
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 30
+                        }
+                    ]
+                },
+                {
+                    "id": "row6",
+                    "values": [
+                        {
+                            "value": 20
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 20
+                        }
+                    ]
+                },
+                {
+                    "id": "row7",
+                    "values": [
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 80
+                        },
+                        {
+                            "value": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "row8",
+                    "values": [
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 80
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 30
+                        },
+                        {
+                            "value": 70
+                        },
+                        {
+                            "value": 30
+                        }
+                    ]
+                },
+                {
+                    "id": "row9",
+                    "values": [
+                        {
+                            "value": 60
+                        },
+                        {
+                            "value": 20
+                        },
+                        {
+                            "value": 90
+                        },
+                        {
+                            "value": 30
+                        },
+                        {
+                            "value": 100
+                        },
+                        {
+                            "value": 50
+                        },
+                        {
+                            "value": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
