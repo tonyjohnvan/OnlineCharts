@@ -34,7 +34,7 @@ function loadData(num) {
         .done(function (json) {
             prepareTableWithData(json, function () {
                 findMinMax(dataToUse.sortType);
-                formatData(num);
+                //formatData(num);
             })
         })
         .fail(function (error) {
