@@ -6,6 +6,7 @@
             "numberOfRows": 9,
             "numberOfCols": 7,
             "sortType":2,
+            "dataType":2,
             "columns": [
                 {
                     "id": 1,
