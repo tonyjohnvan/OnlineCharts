@@ -88,7 +88,7 @@ function formatData(type){
             break;
         default :
         {
-            jsonPath = 'data/gv08/data.json';
+            allCells.html(allCells.html() + "%");
         }
     }
 }
