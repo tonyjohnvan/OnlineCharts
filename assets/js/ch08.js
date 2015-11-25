@@ -73,7 +73,7 @@ function prepareTableWithData(json, callback) {
     }
 }
 function formatData(type){
-    switch (num) {
+    switch (type) {
         case 1:
         {
             // percent
