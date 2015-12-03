@@ -1,0 +1,178 @@
+{
+  "datasources": [
+    {
+      "id": "datasource1",
+      "type": "'table', 'view', 'user created datasource'",
+      "columns": [
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": -75
+        },
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": -43
+        },
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": -15
+        },
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 0
+        },
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 45
+        },
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 72
+        },
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "datasource2",
+      "type": "'table', 'view', 'user created datasource'",
+      "columns": [
+        {
+          "name": "column2",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 0
+        },
+        {
+          "name": "column2",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 72
+        },
+        {
+          "name": "column2",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "datasource3",
+      "type": "'table', 'view', 'user created datasource'",
+      "columns": [
+        {
+          "name": "column3",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 0
+        },
+        {
+          "name": "column3",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 43
+        },
+        {
+          "name": "column3",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 66
+        },
+        {
+          "name": "column3",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 82
+        },
+        {
+          "name": "column3",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "datasource4",
+      "type": "'table', 'view', 'user created datasource'",
+      "columns": [
+        {
+          "name": "column4",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 0
+        },
+        {
+          "name": "column4",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 48
+        },
+        {
+          "name": "column4",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 72
+        },
+        {
+          "name": "column4",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "datasource5",
+      "type": "'table', 'view', 'user created datasource'",
+      "columns": [
+        {
+          "name": "column5",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": -47
+        },
+        {
+          "name": "column5",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": -20
+        },
+        {
+          "name": "column5",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 49
+        },
+        {
+          "name": "column5",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 72
+        },
+        {
+          "name": "column5",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

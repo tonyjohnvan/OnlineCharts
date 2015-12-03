@@ -1,0 +1,491 @@
+{
+  "chartId": "chart UUID",
+  "series": [
+    {
+      "id": "series UUID 1",
+      "data": [
+        {
+          "x": "x1",
+          "y": 1,
+          "isMax": false,
+          "isMin": true,
+          "value": 40
+        },
+        {
+          "x": "x1",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 50
+        },
+        {
+          "x": "x1",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x1",
+          "y": 4,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x1",
+          "y": 5,
+          "isMax": false,
+          "isMin": false,
+          "value": 80
+        },
+        {
+          "x": "x1",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x1",
+          "y": 7,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "series UUID 2",
+      "data": [
+        {
+          "x": "x2",
+          "y": 1,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x2",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 50
+        },
+        {
+          "x": "x2",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x2",
+          "y": 4,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x2",
+          "y": 5,
+          "isMax": false,
+          "isMin": false,
+          "value": 80
+        },
+        {
+          "x": "x2",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x2",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "series UUID 3",
+      "data": [
+        {
+          "x": "x3",
+          "y": 1,
+          "isMax": false,
+          "isMin": true,
+          "value": 40
+        },
+        {
+          "x": "x3",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x3",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 80
+        },
+        {
+          "x": "x3",
+          "y": 4,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x3",
+          "y": 5,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x3",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x3",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 50
+        }
+      ]
+    },
+    {
+      "id": "series UUID 4",
+      "data": [
+        {
+          "x": "x4",
+          "y": 1,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x4",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 40
+        },
+        {
+          "x": "x4",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 30
+        },
+        {
+          "x": "x4",
+          "y": 4,
+          "isMax": true,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x4",
+          "y": 5,
+          "isMax": false,
+          "isMin": false,
+          "value": 50
+        },
+        {
+          "x": "x4",
+          "y": 6,
+          "isMax": false,
+          "isMin": true,
+          "value": 10
+        },
+        {
+          "x": "x4",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "series UUID 5",
+      "data": [
+        {
+          "x": "x5",
+          "y": 1,
+          "isMax": false,
+          "isMin": false,
+          "value": 50
+        },
+        {
+          "x": "x5",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 30
+        },
+        {
+          "x": "x5",
+          "y": 3,
+          "isMax": true,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x5",
+          "y": 4,
+          "isMax": false,
+          "isMin": true,
+          "value": 20
+        },
+        {
+          "x": "x5",
+          "y": 5,
+          "isMax": false,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x5",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x5",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "series UUID 6",
+      "data": [
+        {
+          "x": "x6",
+          "y": 1,
+          "isMax": false,
+          "isMin": true,
+          "value": 20
+        },
+        {
+          "x": "x6",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 50
+        },
+        {
+          "x": "x6",
+          "y": 3,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x6",
+          "y": 4,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x6",
+          "y": 5,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x6",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x6",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "series UUID 7",
+      "data": [
+        {
+          "x": "x7",
+          "y": 1,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x7",
+          "y": 2,
+          "isMax": false,
+          "isMin": true,
+          "value": 50
+        },
+        {
+          "x": "x7",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x7",
+          "y": 4,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x7",
+          "y": 5,
+          "isMax": false,
+          "isMin": true,
+          "value": 50
+        },
+        {
+          "x": "x7",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 80
+        },
+        {
+          "x": "x7",
+          "y": 7,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        }
+      ]
+    },
+    {
+      "id": "series UUID 8",
+      "data": [
+        {
+          "x": "x8",
+          "y": 1,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x8",
+          "y": 2,
+          "isMax": false,
+          "isMin": false,
+          "value": 80
+        },
+        {
+          "x": "x8",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x8",
+          "y": 4,
+          "isMax": true,
+          "isMin": false,
+          "value": 150
+        },
+        {
+          "x": "x8",
+          "y": 5,
+          "isMax": false,
+          "isMin": false,
+          "value": 30
+        },
+        {
+          "x": "x8",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 70
+        },
+        {
+          "x": "x8",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "series UUID 9",
+      "data": [
+        {
+          "x": "x9",
+          "y": 1,
+          "isMax": false,
+          "isMin": false,
+          "value": 60
+        },
+        {
+          "x": "x9",
+          "y": 2,
+          "isMax": false,
+          "isMin": true,
+          "value": 20
+        },
+        {
+          "x": "x9",
+          "y": 3,
+          "isMax": false,
+          "isMin": false,
+          "value": 90
+        },
+        {
+          "x": "x9",
+          "y": 4,
+          "isMax": false,
+          "isMin": false,
+          "value": 30
+        },
+        {
+          "x": "x9",
+          "y": 5,
+          "isMax": true,
+          "isMin": false,
+          "value": 100
+        },
+        {
+          "x": "x9",
+          "y": 6,
+          "isMax": false,
+          "isMin": false,
+          "value": 50
+        },
+        {
+          "x": "x9",
+          "y": 7,
+          "isMax": false,
+          "isMin": true,
+          "value": 20
+        }
+      ]
+    }
+  ]
+}

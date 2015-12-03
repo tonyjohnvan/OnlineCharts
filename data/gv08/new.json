@@ -1,0 +1,97 @@
+//{
+//  "chartId": "chart UUID",
+//  "chartType": "SparkLine",
+//  "dataSource": "datasource1",
+//  "query(optional)": "[default: 'select * from datasource1']",
+//  "series": [
+//    {
+//      "id": "series UUID",
+//      "x": {
+//        "column": "column1",
+//        "showMin": "{True or False}",
+//        "showMax": "{True or False}"
+//      },
+//      "y": "column2",
+//      "showMin": "{True or False}",
+//      "showMax": "{True or False}"
+//    },
+//    {
+//      "id": "series UUID",
+//      "x": {
+//        "column": "column3",
+//        "showMin": "{True or False}",
+//        "showMax": "{True or False}"
+//      },
+//      "y": "column2",
+//      "showMin": "{True or False}",
+//      "showMax": "{True or False}"
+//    },
+//    {
+//      "id": "series UUID",
+//      "x": {
+//        "column": "column1",
+//        "showMin": "{True or False}",
+//        "showMax": "{True or False}"
+//      },
+//      "y": "column4",
+//      "showMin": "{True or False}",
+//      "showMax": "{True or False}"
+//    }
+//  ]
+//},
+
+
+
+//
+//{
+//  "chartId": "chart UUID",
+//  "series": [
+//    {
+//      "id": "series UUID",
+//      "data": [
+//        {
+//          "x": "x1",
+//          "y": 1,
+//          "isMax": true,
+//          "isMin": false
+//        }
+//      ]
+//    }
+//  ]
+//}
+
+//{
+//  "chartId": "chart UUID",
+//  "series": [
+//    {
+//      "id": "series UUID 1",
+//      "data": [
+//        {
+//          "x": "x1",
+//          "y": 1,
+//          "isMax": false,
+//          "isMin": true,
+//          "value": 40
+//        },
+//      ]
+//    }
+//  ]
+//}
+
+
+{
+  "datasources": [
+    {
+      "id": "datasource1",
+      "type": "'table', 'view', 'user created datasource'",
+      "columns": [
+        {
+          "name": "column1",
+          "type": "varchar(20)",
+          "description": "column1 description",
+          "value": -75
+        }
+      ]
+    }
+  ]
+}
