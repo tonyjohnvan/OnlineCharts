@@ -1,0 +1,392 @@
+{
+  "data": {
+    "chartId": 1,
+    "series": [
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 1,
+            "y": 123
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 1,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 1,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 1,
+            "y": 3
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "id": 1
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 2,
+            "y": 234
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 2,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 2,
+            "y": 3
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 2,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 2,
+            "y": 1
+          }
+        ],
+        "id": 2
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 3,
+            "y": 117
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 3,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 3,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 3,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 3,
+            "y": 3
+          }
+        ],
+        "id": 3
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 4,
+            "y": 173
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 4,
+            "y": 3
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 4,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 4,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 4,
+            "y": 2
+          }
+        ],
+        "id": 4
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 5,
+            "y": 231
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 5,
+            "y": 4
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 5,
+            "y": 3
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 5,
+            "y": 4
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 5,
+            "y": 1
+          }
+        ],
+        "id": 5
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 6,
+            "y": 67
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 6,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 6,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 6,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 6,
+            "y": 3
+          }
+        ],
+        "id": 6
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 7,
+            "y": 45
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 7,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 7,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 7,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 7,
+            "y": 4
+          }
+        ],
+        "id": 7
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 8,
+            "y": 93
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 8,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 8,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 8,
+            "y": 4
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 8,
+            "y": 3
+          }
+        ],
+        "id": 8
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 9,
+            "y": 194
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 9,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 9,
+            "y": 4
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 9,
+            "y": 3
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 9,
+            "y": 4
+          }
+        ],
+        "id": 9
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 10,
+            "y": 134
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 10,
+            "y": 4
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 10,
+            "y": 4
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 10,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 10,
+            "y": 2
+          }
+        ],
+        "id": 10
+      },
+      {
+        "data": [
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 11,
+            "y": 193
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 11,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 11,
+            "y": 1
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 11,
+            "y": 2
+          },
+          {
+            "isMax": null,
+            "isMin": null,
+            "x": 11,
+            "y": 3
+          }
+        ],
+        "id": 11
+      }
+    ]
+  }
+}
