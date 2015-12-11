@@ -11,6 +11,7 @@
     <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="assets/jqueryui/jquery-ui.min.css" rel="stylesheet">
     <link href="assets/css/nonresponsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/export.css">
     <link href="assets/css/ch08.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,7 +27,7 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">CH39</a>
+            <a class="navbar-brand" href="#">CH08</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,6 +44,8 @@
                         <!--<li><a href="#">Toggle Lines</a></li>-->
                         <!--<li role="separator" class="divider"></li>-->
                         <!--<li><a href="#">Toggle Live Updates</a></li>-->
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#" data-toggle="modal" data-target="#exportModal">Export ...</a></li>
                     </ul>
                 </li>
             </ul>
@@ -68,7 +71,7 @@
 
 <div class="container page-content noselect">
 
-    <div class="container page-content">
+    <div class="container page-content exportable">
         <table class="data-table">
             <!--<tr>-->
                 <!--<th> </th>-->
@@ -147,27 +150,57 @@
                 <!--<td class="dataValue" id="r1col3"><span class="value">40%</span><span class="color-red"></span></td>-->
                 <!--<td class="dataValue" id="r1col4">40</td>-->
                 <!--<td class="dataValue" id="r1col5">40</td>-->
-                <!--<td class="dataValue" id="r1col6">40</td>-->
-                <!--<td class="dataValue" id="r1col7">40</td>-->
-            <!--</tr>-->
-            <!--<tr>-->
-                <!--<td class="row-header">Simultaneous detection of multiple analyses on the same disposable ( RI = 102 )</td>-->
-                <!--<td class="dataValue" id="r1col1">40</td>-->
-                <!--<td class="dataValue" id="r1col2">40</td>-->
-                <!--<td class="dataValue" id="r1col3">40</td>-->
-                <!--<td class="dataValue" id="r1col4">40</td>-->
-                <!--<td class="dataValue" id="r1col5">40</td>-->
-                <!--<td class="dataValue" id="r1col6">40</td>-->
-                <!--<td class="dataValue" id="r1col7">40</td>-->
-            <!--</tr>-->
-        </table>
-</div>
+                    <!--<td class="dataValue" id="r1col6">40</td>-->
+                    <!--<td class="dataValue" id="r1col7">40</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td class="row-header">Simultaneous detection of multiple analyses on the same disposable ( RI = 102 )</td>-->
+                    <!--<td class="dataValue" id="r1col1">40</td>-->
+                    <!--<td class="dataValue" id="r1col2">40</td>-->
+                    <!--<td class="dataValue" id="r1col3">40</td>-->
+                    <!--<td class="dataValue" id="r1col4">40</td>-->
+                    <!--<td class="dataValue" id="r1col5">40</td>-->
+                    <!--<td class="dataValue" id="r1col6">40</td>-->
+                    <!--<td class="dataValue" id="r1col7">40</td>-->
+                <!--</tr>-->
+            </table>
+            </div>
+    </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="exportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Export ...</h4>
+                    </div>
+                    <div class="modal-body">
+                        <ol>
+                            <li>Copy to clipboard</li>
+                            <li>Insert to PowerPoint</li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="copyBtn" data-clipboard-text="">Copy to clipboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!--<div style="-->
+    <!--width: 10px;-->
+    <!--height: 10px;-->
+    <!--background-color: beige;-->
+<!--"></div>-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/jqueryui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/ch08.js"></script>
+    <script src="assets/js/html2canvas.js"></script>
+    <script src="assets/js/clipboard.min.js"></script>
+    <script src="assets/js/export.js"></script>
 </body>
 </html>
