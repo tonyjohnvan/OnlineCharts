@@ -6,7 +6,7 @@ var jsonPath = 'data/gv05/data.json';
 var dataToUse;
 
 $(window).load(function () {
-    //loadData(1);
+    loadData(1);
     $('.noselect').delegate('img','mousedown', function (e) {
         e.preventDefault();
     });
