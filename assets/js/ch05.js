@@ -7,37 +7,70 @@ var dataToUse;
 
 $(window).load(function () {
     loadData(1);
-    $('.noselect').delegate('img','mousedown', function (e) {
+    $('.noselect').delegate('img', 'mousedown', function (e) {
         e.preventDefault();
     });
 });
 
 function loadData(num) {
-    switch (num) {
-        case 1:
-        {
-            jsonPath = 'data/gv05/data.json';
+//    switch (num) {
+//        case 1:
+//        {
+//            jsonPath = 'data/gv05/data.json';
+//        }
+//            break;
+//        case 2:
+//        {
+//            jsonPath = 'data/gv05/data2.json';
+//        }
+//            break;
+//        default :
+//        {
+//            jsonPath = 'data/gv08/data.json';
+//        }
+//    }
+//    $.getJSON(jsonPath)
+//        .done(function (json) {
+//            prepareTableWithData(json, function () {
+//            })
+//        })
+//        .fail(function (error) {
+//            console.log(error);
+//        })
+//    ;
+    var callData = {
+        "chartId": 1,
+        "chartType": "SparkLine",
+        "dataSource": "quantilus_chart5",
+        "query": "select * from quantilus_chart5 order by chart, series, factor",
+        "series": [
+            {
+                "column": "series",
+                "x": {
+                    "column": "factor",
+                    "showMin": true,
+                    "showMax": true
+                },
+                "y": {
+                    "column": "value",
+                    "showMin": false,
+                    "showMax": false
+                }
+            }
+        ]
+    };
+    $.ajax({
+        beforeSend: function(xhrObj){
+            xhrObj.setRequestHeader("Content-Type","application/json");
+            xhrObj.setRequestHeader("Accept","application/json");
+        },
+        method: "POST",
+        url: "http://52.23.227.64:8080/nwo/chart/getChartData",
+        data: JSON.stringify(callData),
+        success: function(json){
+            console.log(json);
         }
-            break;
-        case 2:
-        {
-            jsonPath = 'data/gv05/data2.json';
-        }
-            break;
-        default :
-        {
-            jsonPath = 'data/gv08/data.json';
-        }
-    }
-    $.getJSON(jsonPath)
-        .done(function (json) {
-            prepareTableWithData(json, function () {
-            })
-        })
-        .fail(function (error) {
-            console.log(error);
-        })
-    ;
+    });
 }
 
 
@@ -67,14 +100,14 @@ function prepareTableWithData(json, callback) {
             .append("<td class='row-header'> Series " + dataToUse.series[i].id + "</td>")
             .append(
                 '<td class="barValue" id="r' + (i + 1) + 'col1">' +
-                    '<div class="barValueWrapper">' +
-                        '<div class="barValueInner" style="width: ' +
-                                (dataToUse.series[i].data[0].y / maxValue) * 100 +
-                        '%"></div>' +
-                    '</div>' +
-                    '<span class="barValue">' + dataToUse.series[i].data[0].y + '</span>' +
+                '<div class="barValueWrapper">' +
+                '<div class="barValueInner" style="width: ' +
+                (dataToUse.series[i].data[0].y / maxValue) * 100 +
+                '%"></div>' +
+                '</div>' +
+                '<span class="barValue">' + dataToUse.series[i].data[0].y + '</span>' +
                 '</td>'
-            );
+        );
         for (var j = 1; j < dataToUse.series[i].data.length; j++) {
             var imgSrc = '';
             switch (dataToUse.series[i].data[j].y) {
@@ -105,9 +138,9 @@ function prepareTableWithData(json, callback) {
                     break;
             }
             targetRow.append(
-                "<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" +
-                    '<img src="'+imgSrc+'" alt=""/>' +
-                "</td>"
+                    "<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" +
+                    '<img src="' + imgSrc + '" alt=""/>' +
+                    "</td>"
             );
 
         }
