@@ -29,6 +29,7 @@ function loadData(num) {
         .done(function (json) {
             prepareTableWithData(json, function () {
                 formatData(num);
+                addOtherFeatrures();
             })
         })
         .fail(function (error) {
@@ -42,7 +43,8 @@ function prepareTableWithData(json, callback) {
     dataToUse = json.data;
     var dataWrapper = $(".data-table");
     dataWrapper.html('');
-    dataWrapper.append("<tr class='header-tr'></tr>");
+    dataWrapper.append('<thead class="tablehead"></thead>');
+    $('.tablehead').append("<tr class='header-tr'></tr>");
     var tableHeader = $(".header-tr");
     tableHeader.append("<th> </th>");
     for (var i = 0; i < dataToUse.series[0].data.length; i++) {
@@ -50,8 +52,10 @@ function prepareTableWithData(json, callback) {
     }
 
     //add rows:
+    dataWrapper.append('<tbody class="tableBody"></tbody>');
+    var bodyWrapper = $('.tableBody');
     for (var i = 0; i < dataToUse.series.length; i++) {
-        dataWrapper.append("<tr id='dataR" + (i + 1) + "'></tr>");
+        bodyWrapper.append("<tr id='dataR" + (i + 1) + "'></tr>");
         var targetRow = $("#dataR" + (i + 1));
         targetRow
             .append("<td class='row-header'>" + dataToUse.series[i].name + "</td>");
@@ -73,14 +77,29 @@ function formatData() {
         var tempValue = parseInt(temp.html().substr(0, temp.html().length - 1));
         if (tempValue <= 20) {
             $(temp).addClass('red');
-        } else if (tempValue > 20 && tempValue <= 40 ) {
+        } else if (tempValue > 20 && tempValue <= 40) {
             $(temp).addClass('orange');
-        } else if (tempValue > 40 && tempValue <= 60 ) {
+        } else if (tempValue > 40 && tempValue <= 60) {
             $(temp).addClass('yellow');
-        } else if (tempValue > 60 && tempValue <= 80 ) {
+        } else if (tempValue > 60 && tempValue <= 80) {
             $(temp).addClass('green');
-        } else if (tempValue > 80 && tempValue <= 100 ) {
+        } else if (tempValue > 80 && tempValue <= 100) {
             $(temp).addClass('blue');
         }
     }
 }
+
+function addOtherFeatrures(){
+    // JQ sortable
+    $('.tableBody').sortable({
+        helper: fixHelper
+    }).disableSelection();
+    $('.data-table').tablesorter()
+}
+
+var fixHelper = function(e, ui) {
+    ui.children().each(function() {
+        $(this).width($(this).width());
+    });
+    return ui;
+};
