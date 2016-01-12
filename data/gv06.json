@@ -1,0 +1,282 @@
+{
+  "data": {
+    "chartId": 1,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "Number Set 1",
+            "y": "40%"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "50%"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "60%"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "70%"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "80%"
+          }
+        ],
+        "name": "Data Series Line 1"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 2",
+            "y": "100%"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "90%"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "60%"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "50%"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "30%"
+          }
+        ],
+        "name": "Data Series Line  2"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 3",
+            "y": "20%"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "45%"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "67%"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "16%"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "89%"
+          }
+        ],
+        "name": "Data Series Line  3"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 4",
+            "y": "34%"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "56%"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "95%"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "100%"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "96%"
+          }
+        ],
+        "name": "Data Series Line  4"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 5",
+            "y": "63%"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "72%"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "29%"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "48%"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "82%"
+          }
+        ],
+        "name": "Data Series Line  5"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 6",
+            "y": "100%"
+          },
+          {
+            "x": "Number Set 6",
+            "y": "100%"
+          },
+          {
+            "x": "Number Set 6",
+            "y": "67%"
+          },
+          {
+            "x": "Number Set 6",
+            "y": "98%"
+          },
+          {
+            "x": "Number Set 6",
+            "y": "80%"
+          }
+        ],
+        "name": "Data Series Line  6"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 7",
+            "y": "30%"
+          },
+          {
+            "x": "Number Set 7",
+            "y": "40%"
+          },
+          {
+            "x": "Number Set 7",
+            "y": "60%"
+          },
+          {
+            "x": "Number Set 7",
+            "y": "20%"
+          },
+          {
+            "x": "Number Set 7",
+            "y": "50%"
+          }
+        ],
+        "name": "Data Series Line  7"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 8",
+            "y": "18%"
+          },
+          {
+            "x": "Number Set 8",
+            "y": "58%"
+          },
+          {
+            "x": "Number Set 8",
+            "y": "23%"
+          },
+          {
+            "x": "Number Set 8",
+            "y": "56%"
+          },
+          {
+            "x": "Number Set 8",
+            "y": "80%"
+          }
+        ],
+        "name": "Data Series Line  8"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 9",
+            "y": "26%"
+          },
+          {
+            "x": "Number Set 9",
+            "y": "72%"
+          },
+          {
+            "x": "Number Set 9",
+            "y": "59%"
+          },
+          {
+            "x": "Number Set 9",
+            "y": "45%"
+          },
+          {
+            "x": "Number Set 9",
+            "y": "86%"
+          }
+        ],
+        "name": "Data Series Line  9"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 10",
+            "y": "48%"
+          },
+          {
+            "x": "Number Set 10",
+            "y": "94%"
+          },
+          {
+            "x": "Number Set 10",
+            "y": "23%"
+          },
+          {
+            "x": "Number Set 10",
+            "y": "96%"
+          },
+          {
+            "x": "Number Set 10",
+            "y": "48%"
+          }
+        ],
+        "name": "Data Series Line 10"
+      },
+      {
+        "data": [
+          {
+            "x": "Number Set 11",
+            "y": "92%"
+          },
+          {
+            "x": "Number Set 11",
+            "y": "32%"
+          },
+          {
+            "x": "Number Set 11",
+            "y": "46%"
+          },
+          {
+            "x": "Number Set 11",
+            "y": "27%"
+          },
+          {
+            "x": "Number Set 11",
+            "y": "84%"
+          }
+        ],
+        "name": "Data Series Line 11"
+      }
+    ]
+  }
+}

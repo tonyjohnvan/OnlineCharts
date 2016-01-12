@@ -47,14 +47,10 @@ function loadData(num) {
             {
                 "column": "series",
                 "x": {
-                    "column": "factor",
-                    "showMin": true,
-                    "showMax": true
+                    "column": "factor"
                 },
                 "y": {
-                    "column": "value",
-                    "showMin": false,
-                    "showMax": false
+                    "column": "value"
                 }
             }
         ]
