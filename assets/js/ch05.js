@@ -12,6 +12,7 @@ $(window).load(function () {
     });
 });
 
+var authToken;
 function loadData(num) {
 //    switch (num) {
 //        case 1:
@@ -38,48 +39,73 @@ function loadData(num) {
 //            console.log(error);
 //        })
 //    ;
-    var callData = {
-        "chartId": 1,
-        "chartType": "SparkLine",
-        "dataSource": "quantilus_chart5",
-        "query": "select * from quantilus_chart5 order by chart, series, factor",
-        "series": [
-            {
-                "column": "series",
-                "x": {
-                    "column": "factor"
-                },
-                "y": {
-                    "column": "value"
-                }
-            }
-        ]
-    };
+
+    var auth = {"username": "user", "password": "password"};
+
     $.ajax({
-        beforeSend: function(xhrObj){
-            xhrObj.setRequestHeader("Content-Type","application/json");
-            xhrObj.setRequestHeader("Accept","application/json");
+        beforeSend: function (xhrObj) {
+            xhrObj.setRequestHeader("Content-Type", "application/json");
+            xhrObj.setRequestHeader("Accept", "application/json");
         },
         method: "POST",
-        url: "http://52.23.227.64:8080/nwo/chart/getChartData",
-        data: JSON.stringify(callData),
-        success: function(json){
+        url: "http://52.23.227.64:8080/nwo/api/login",
+        data: JSON.stringify(auth),
+        success: function (json) {
             console.log(json);
+            //localStorage.set('token', json);
+            authToken = json;
+
+
+            var callData = {
+                "chartId": 1,
+                "chartType": "SparkLine",
+                "dataSource": "quantilus_chart5",
+                "query": "select * from quantilus_chart5 order by chart, series, factor",
+                "series": [
+                    {
+                        "column": "series",
+                        "x": {
+                            "column": "factor"
+                        },
+                        "y": {
+                            "column": "value"
+                        }
+                    }
+                ]
+            };
+            $.ajax({
+                beforeSend: function (xhrObj) {
+                    xhrObj.setRequestHeader("Content-Type", "application/json");
+                    xhrObj.setRequestHeader("Accept", "application/json");
+                    xhrObj.setRequestHeader("Authorization", "Bearer " + authToken.access_token);
+                },
+                method: "POST",
+                url: "http://52.23.227.64:8080/nwo/chart/getChartData",
+                data: JSON.stringify(callData),
+                success: function (json) {
+                    console.log(json);
+                    prepareTableWithData(json);
+                }
+            });
+
+
         }
     });
+
+
 }
 
 
 function prepareTableWithData(json, callback) {
-
+    $('#loadingText').remove();
     dataToUse = json.data;
     var dataWrapper = $(".data-table");
     dataWrapper.html('');
     dataWrapper.append("<tr class='header-tr'></tr>");
     var tableHeader = $(".header-tr");
-    tableHeader.append("<th> </th>").append("<th class='lineTitle'> </th>");
+    tableHeader.append("<th> </th>").append("<th class='lineTitle'>"+dataToUse.series[0].data[0].x+"</th>");
     for (var i = 1; i < dataToUse.series[0].data.length; i++) {
-        tableHeader.append("<th>Trait " + (i) + "</th>");
+        tableHeader.append("<th>" + dataToUse.series[0].data[i].x + "</th>");
     }
 
     // Find Highest
@@ -93,16 +119,16 @@ function prepareTableWithData(json, callback) {
         dataWrapper.append("<tr id='dataR" + (i + 1) + "'></tr>");
         var targetRow = $("#dataR" + (i + 1));
         targetRow
-            .append("<td class='row-header'> Series " + dataToUse.series[i].id + "</td>")
+            .append("<td class='row-header'> Series " + dataToUse.series[i].name + "</td>")
             .append(
-                '<td class="barValue" id="r' + (i + 1) + 'col1">' +
-                '<div class="barValueWrapper">' +
-                '<div class="barValueInner" style="width: ' +
-                (dataToUse.series[i].data[0].y / maxValue) * 100 +
-                '%"></div>' +
-                '</div>' +
-                '<span class="barValue">' + dataToUse.series[i].data[0].y + '</span>' +
-                '</td>'
+            '<td class="barValue" id="r' + (i + 1) + 'col1">' +
+            '<div class="barValueWrapper">' +
+            '<div class="barValueInner" style="width: ' +
+            (dataToUse.series[i].data[0].y / maxValue) * 100 +
+            '%"></div>' +
+            '</div>' +
+            '<span class="barValue">' + dataToUse.series[i].data[0].y + '</span>' +
+            '</td>'
         );
         for (var j = 1; j < dataToUse.series[i].data.length; j++) {
             var imgSrc = '';
@@ -134,9 +160,9 @@ function prepareTableWithData(json, callback) {
                     break;
             }
             targetRow.append(
-                    "<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" +
-                    '<img src="' + imgSrc + '" alt=""/>' +
-                    "</td>"
+                "<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" +
+                '<img src="' + imgSrc + '" alt=""/>' +
+                "</td>"
             );
 
         }
