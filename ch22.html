@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>OSMPS Online Chart v22</title>
+
+        <!-- Bootstrap -->
+        <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/jqueryui/jquery-ui.min.css" rel="stylesheet">
+        <link href="assets/css/nonresponsive.css" rel="stylesheet">
+        <link href="assets/plugin/jquery-ui.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/export.css">
+        <link href="assets/css/ch20.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <style type="text/css">
+        ${demo.css}
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $('#container').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Clustered Cylinder Chart'
+                },
+                subtitle: {
+                    text: 'Chart Title (n=215)'
+                },
+                xAxis: {
+                    categories: [
+                        'Edwards',
+                        'Edwards',
+                        'Edwards',
+                        'Edwards'
+                    ],
+                    crosshair: false
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Rainfall (mm)',
+                        enabled: false
+                    }
+                },
+                tooltip: {
+                    enabled: false
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0.2,
+                        borderWidth: 0,
+                        dataLabels: {
+                            enabled: true,
+                            format: "{y}<br>{y}%"
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brand 4',
+                    data: [49, 71, 96, 44]
+
+                }, {
+                    name: 'Brand 1',
+                    data: [83, 34, 23, 93]
+
+                }]
+            });
+        });
+    </script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">CH22</a>
+        </div>
+
+        <div class="" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Action <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" data-toggle="modal" data-target="#exportModal">Export ...</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Data <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="loadData(1)">Data 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container page-content noselect">
+    <div class="container page-content exportable">
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    </div>
+</div>
+
+
+<script src="assets/plugin/highcharts.js"></script>
+<script type="text/javascript" src="assets/js/ch20.js"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+
+{
+  "data": {
+    "chartId": 14,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "100%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "80%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "80%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "90%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "90%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "70%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "80%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "80%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "100%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "78%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "78%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "92%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "80%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "80%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "70%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "90%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "90%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "70%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "88%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "88%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "97%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "97%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "97%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "89%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "96%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "96%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "78%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "56%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "56%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "87%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      },
+      {
+        "data": [
+          {
+            "x": "Brands",
+            "y": "B12, cost to the lab for processing"
+          },
+          {
+            "x": "All Respondents",
+            "y": "56%"
+          },
+          {
+            "x": "Col 1 (n=196)",
+            "y": "56%"
+          },
+          {
+            "x": "Col 2 (n=158)",
+            "y": "87%"
+          }
+        ],
+        "name": "B12, cost to the lab for processing"
+      }
+    ]
+  }
+}
