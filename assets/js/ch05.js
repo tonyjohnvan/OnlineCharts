@@ -48,7 +48,7 @@ function loadData(num) {
             xhrObj.setRequestHeader("Accept", "application/json");
         },
         method: "POST",
-        url: "http://52.23.227.64:8080/nwo/api/login",
+        url: "http://ec2-54-85-179-119.compute-1.amazonaws.com:8080/nwo/api/login",
         data: JSON.stringify(auth),
         success: function (json) {
             console.log(json);
@@ -80,7 +80,7 @@ function loadData(num) {
                     xhrObj.setRequestHeader("Authorization", "Bearer " + authToken.access_token);
                 },
                 method: "POST",
-                url: "http://52.23.227.64:8080/nwo/chart/getChartData",
+                url: "http://ec2-54-85-179-119.compute-1.amazonaws.com:8080/nwo/chart/getChartData ",
                 data: JSON.stringify(callData),
                 success: function (json) {
                     console.log(json);

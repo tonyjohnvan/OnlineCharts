@@ -46,9 +46,9 @@ function prepareTableWithData(json, callback) {
     dataWrapper.append('<thead class="tablehead"></thead>');
     $('.tablehead').append("<tr class='header-tr'></tr>");
     var tableHeader = $(".header-tr");
-    tableHeader.append("<th> </th>");
-    for (var i = 0; i < dataToUse.series[0].data.length; i++) {
-        tableHeader.append("<th>" + dataToUse.series[0].data[i].x + "</th>");
+    tableHeader.append("<th class='header-first'>&nbsp</th><th class='header-index'>" + dataToUse.series[0].data[0].x + "</th>");
+    for (var i = 1; i < dataToUse.series[0].data.length; i++) {
+        tableHeader.append("<th class='sorter'>" + dataToUse.series[0].data[i].x + "</th>");
     }
 
     //add rows:
@@ -58,8 +58,8 @@ function prepareTableWithData(json, callback) {
         bodyWrapper.append("<tr id='dataR" + (i + 1) + "'></tr>");
         var targetRow = $("#dataR" + (i + 1));
         targetRow
-            .append("<td class='row-header'>" + dataToUse.series[i].name + "</td>");
-        for (var j = 0; j < dataToUse.series[i].data.length; j++) {
+            .append("<td class='row-header row-header-first'>" + dataToUse.series[i].name + "</td><td class='row-header row-header-index'>" + dataToUse.series[i].data[0].y + "</td>");
+        for (var j = 1; j < dataToUse.series[i].data.length; j++) {
             targetRow.append("<td class='dataValue' id='r" + (i + 1) + "col" + (j + 1) + "'>" + (dataToUse.series[i].data[j].y) + "</td>");
         }
     }
@@ -94,7 +94,11 @@ function addOtherFeatrures(){
     $('.tableBody').sortable({
         helper: fixHelper
     }).disableSelection();
-    $('.data-table').tablesorter()
+    $('.data-table').dragtable({
+        sortClass: '.sorter',
+        dragaccept: '.sorter',
+        exact: true
+    }).tablesorter({ selectorSort: '.sorter' });
 }
 
 var fixHelper = function(e, ui) {

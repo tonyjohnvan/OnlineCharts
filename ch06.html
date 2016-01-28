@@ -12,7 +12,7 @@
     <link href="assets/jqueryui/jquery-ui.min.css" rel="stylesheet">
     <link href="assets/css/nonresponsive.css" rel="stylesheet">
     <link href="assets/plugin/jquery-ui.min.css" rel="stylesheet">
-    <link href="assets/plugin/dragtable/dragtable.css" rel="stylesheet">
+    <link href="assets/plugin/dragtable.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/export.css">
     <link href="assets/css/ch06.css" rel="stylesheet">
 
@@ -63,6 +63,12 @@
 <div class="container page-content noselect">
 
     <div class="container page-content exportable">
+        <table style="width: 100%;">
+            <tr>
+                <th style="width: 35%; text-align: center;">Top Attributes</th>
+                <th style="text-align: center;">Brand Performance (T2B)</th>
+            </tr>
+        </table>
         <table class="data-table">
             <!--<tr>-->
             <!--<th> </th>-->
@@ -155,6 +161,14 @@
             <!--<td class="dataValue" id="r1col7">40</td>-->
             <!--</tr>-->
         </table>
+
+        <div class="legend">
+            <span class="legend-icon blue"></span><span class="legend-text">Best performance</span>
+            <span class="legend-icon green"></span><span class="legend-text">Better than average performance</span>
+            <span class="legend-icon yellow"></span><span class="legend-text">Average performance</span>
+            <span class="legend-icon orange"></span><span class="legend-text">Less than average performance</span>
+            <span class="legend-icon red"></span><span class="legend-text">Worst performance</span>
+        </div>
     </div>
 </div>
 
@@ -192,6 +206,7 @@
 <script type="text/javascript" src="assets/plugin/dragtable/jquery.dragtable.js"></script>
 <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/jqueryui/jquery-ui.min.js"></script>
+<script src="assets/plugin/jquery.dragtable.js"></script>
 <script type="text/javascript" src="assets/js/ch06.js"></script>
 <script src="assets/js/html2canvas.js"></script>
 <script src="assets/js/clipboard.min.js"></script>
