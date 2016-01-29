@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OSMPS Online Chart v34</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/jqueryui/jquery-ui.min.css" rel="stylesheet">
+    <link href="assets/css/nonresponsive.css" rel="stylesheet">
+    <link href="assets/plugin/jquery-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/export.css">
+    <link href="assets/css/ch20.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <style type="text/css">
+        ${demo.css}
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $('#container').highcharts({
+                chart: {
+                    type: 'line'
+                },
+                title: {
+                    text: 'Liner Processing Chart'
+                },
+                xAxis: {
+                    categories: [
+                        'Jan',
+                        'Feb',
+                        'Mar',
+                        'Apr',
+                        'May',
+                        'Jun',
+                        'Jul',
+                        'Aug',
+                        'Sep',
+                        'Oct',
+                        'Nov',
+                        'Dec'
+                    ],
+                    crosshair: true
+                },
+                yAxis: {
+                    min: 0
+                },
+                plotOptions: {
+                    line: {
+                        dataLabels: {
+                            enabled: true
+                        },
+                        enableMouseTracking: false
+                    }
+                },
+                series: [{
+                    name: 'Brand 1',
+                    data: [49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+                }, {
+                    name: 'Brand 2',
+                    data: [48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2]
+                }, {
+                    name: 'Brand 3',
+                    data: [42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1]
+                }]
+            });
+        });
+    </script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">CH34</a>
+        </div>
+
+        <div class="" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Action <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" data-toggle="modal" data-target="#exportModal">Export ...</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Data <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="loadData(1)">Data 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container page-content noselect">
+    <div class="container page-content exportable">
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    </div>
+</div>
+
+
+<script src="assets/plugin/highcharts.js"></script>
+<script type="text/javascript" src="assets/js/ch20.js"></script>
+</body>
+</html>

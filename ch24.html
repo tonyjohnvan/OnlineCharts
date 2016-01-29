@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OSMPS Online Chart v24</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/jqueryui/jquery-ui.min.css" rel="stylesheet">
+    <link href="assets/css/nonresponsive.css" rel="stylesheet">
+    <link href="assets/plugin/jquery-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/export.css">
+    <link href="assets/css/ch20.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <style type="text/css">
+        ${demo.css}
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $('#container').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Stacked column chart'
+                },
+                xAxis: {
+                    categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Total fruit consumption'
+                    },
+                    stackLabels: {
+                        enabled: true,
+                        style: {
+                            fontWeight: 'bold',
+                            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                        }
+                    }
+                },
+                plotOptions: {
+                    column: {
+                        stacking: 'percent',
+                        dataLabels: {
+                            enabled: true,
+                            color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+                            style: {
+                                textShadow: '0 0 3px black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brand 1',
+                    data: [5, 8, 14, 16, 24]
+                }, {
+                    name: 'Brand 2',
+                    data: [5, 8, 14, 16, 24]
+                }, {
+                    name: 'Brand 3',
+                    data: [5, 8, 14, 16, 24]
+                }]
+            });
+        });
+    </script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">CH24</a>
+        </div>
+
+        <div class="" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Action <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" data-toggle="modal" data-target="#exportModal">Export ...</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Data <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="loadData(1)">Data 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container page-content noselect">
+    <div class="container page-content exportable">
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    </div>
+</div>
+
+
+<script src="assets/plugin/highcharts.js"></script>
+<script type="text/javascript" src="assets/js/ch20.js"></script>
+</body>
+</html>
