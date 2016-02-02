@@ -24,59 +24,6 @@
     <style type="text/css">
         ${demo.css}
     </style>
-    <script type="text/javascript">
-        $(function () {
-            $('#container').highcharts({
-                chart: {
-                    type: 'column'
-                },
-                title: {
-                    text: 'Clustered Cylinder Chart'
-                },
-                subtitle: {
-                    text: 'Chart Title (n=215)'
-                },
-                xAxis: {
-                    categories: [
-                        'Edwards',
-                        'Edwards',
-                        'Edwards',
-                        'Edwards'
-                    ],
-                    crosshair: false
-                },
-                yAxis: {
-                    min: 0,
-                    title: {
-                        text: 'Rainfall (mm)',
-                        enabled: false
-                    }
-                },
-                tooltip: {
-                    enabled: false
-                },
-                plotOptions: {
-                    column: {
-                        pointPadding: 0.2,
-                        borderWidth: 0,
-                        dataLabels: {
-                            enabled: true,
-                            format: "{y}<br>{y}%"
-                        }
-                    }
-                },
-                series: [{
-                    name: 'Brand 4',
-                    data: [49, 71, 96, 44]
-
-                }, {
-                    name: 'Brand 1',
-                    data: [83, 34, 23, 93]
-
-                }]
-            });
-        });
-    </script>
 </head>
 <body>
 
@@ -118,6 +65,6 @@
 
 
 <script src="assets/plugin/highcharts.js"></script>
-<script type="text/javascript" src="assets/js/ch20.js"></script>
+<script type="text/javascript" src="assets/js/ch22.js"></script>
 </body>
 </html>

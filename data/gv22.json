@@ -1,0 +1,49 @@
+{
+  "data": {
+    "chartId": 14,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "Edwards",
+            "y": 49
+          },
+          {
+            "x": "Edwards",
+            "y": 71
+          },
+          {
+            "x": "Edwards",
+            "y": 96
+          },
+          {
+            "x": "Edwards",
+            "y": 44
+          }
+        ],
+        "name": "Brand 1"
+      },
+      {
+        "data": [
+          {
+            "x": "Edwards",
+            "y": 83
+          },
+          {
+            "x": "Edwards",
+            "y": 34
+          },
+          {
+            "x": "Edwards",
+            "y": 23
+          },
+          {
+            "x": "Edwards",
+            "y": 93
+          }
+        ],
+        "name": "Brand 4"
+      }
+    ]
+  }
+}
