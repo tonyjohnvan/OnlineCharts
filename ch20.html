@@ -20,67 +20,11 @@
         <![endif]-->
     </head>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
     <style type="text/css">
         ${demo.css}
     </style>
-    <script type="text/javascript">
-        $(function () {
-            $('#container').highcharts({
-                chart: {
-                    type: 'column'
-                },
-                title: {
-                    text: 'Driver Chart(Negative)'
-                },
-                subtitle: {
-                    text: 'Chart Title (n=215)'
-                },
-                xAxis: {
-                    categories: [
-                        'Daily',
-                        'Twice in a week',
-                        'Once in a week',
-                        'Fortnightly',
-                        'Monthly'
-                    ],
-                    crosshair: false
-                },
-                yAxis: {
-                    min: 0,
-                    title: {
-                        text: 'Rainfall (mm)',
-                        enabled: false
-                    }
-                },
-                tooltip: {
-                    enabled: false
-                },
-                plotOptions: {
-                    column: {
-                        pointPadding: 0.2,
-                        borderWidth: 0,
-                        dataLabels: {
-                            enabled: true,
-                            format: "{y}%"
-                        }
-                    }
-                },
-                series: [{
-                    name: 'Brand 1',
-                    data: [49, 71, 96, 100, 44]
-
-                }, {
-                    name: 'Brand 2',
-                    data: [83, 78, 98, 93, 100]
-
-                }, {
-                    name: 'Brand 3',
-                    data: [48, 38, 39, 41, 47]
-                }]
-            });
-        });
-    </script>
+    <script type="text/javascript" src="assets/js/ch20.js"></script>
 </head>
 <body>
 
