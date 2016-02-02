@@ -5,20 +5,24 @@
       {
         "data": [
           {
-            "x": "Edwards",
-            "y": 49
+            "x": "Obj 1",
+            "y": 5
           },
           {
-            "x": "Edwards",
-            "y": 71
+            "x": "Obj 2",
+            "y": 8
           },
           {
-            "x": "Edwards",
-            "y": 96
+            "x": "Obj 3",
+            "y": 14
           },
           {
-            "x": "Edwards",
-            "y": 44
+            "x": "Obj 4",
+            "y": 16
+          },
+          {
+            "x": "Obj 5",
+            "y": 24
           }
         ],
         "name": "Brand 1"
@@ -26,23 +30,52 @@
       {
         "data": [
           {
-            "x": "Edwards",
-            "y": 83
+            "x": "Obj 1",
+            "y": 5
           },
           {
-            "x": "Edwards",
-            "y": 34
+            "x": "Obj 2",
+            "y": 8
           },
           {
-            "x": "Edwards",
-            "y": 23
+            "x": "Obj 3",
+            "y": 14
           },
           {
-            "x": "Edwards",
-            "y": 93
+            "x": "Obj 4",
+            "y": 16
+          },
+          {
+            "x": "Obj 5",
+            "y": 24
           }
         ],
-        "name": "Brand 4"
+        "name": "Brand 2"
+      },
+      {
+        "data": [
+          {
+            "x": "Obj 1",
+            "y": 5
+          },
+          {
+            "x": "Obj 2",
+            "y": 8
+          },
+          {
+            "x": "Obj 3",
+            "y": 14
+          },
+          {
+            "x": "Obj 4",
+            "y": 16
+          },
+          {
+            "x": "Obj 5",
+            "y": 24
+          }
+        ],
+        "name": "Brand 3"
       }
     ]
   }
