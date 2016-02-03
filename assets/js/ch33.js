@@ -31,7 +31,7 @@ function prepareChartWithData(json, callback) {
 
   $('#container').highcharts({
     chart: {
-      //type: 'spline',
+      type: 'line',
       inverted: true
     },
     //title: {

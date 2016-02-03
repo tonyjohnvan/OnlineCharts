@@ -1,0 +1,326 @@
+{
+  "data": {
+    "chartId": 6,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "151"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "40"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "50"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "60"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "70"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "80"
+          }
+        ],
+        "name": "Data Series Line 01"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "144"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "100"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "90"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "60"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "50"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "30"
+          }
+        ],
+        "name": "Data Series Line 02"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "134"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "20"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "45"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "67"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "16"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "89"
+          }
+        ],
+        "name": "Data Series Line 03"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "131"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "34"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "56"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "95"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "100"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "96"
+          }
+        ],
+        "name": "Data Series Line 04"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "112"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "63"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "72"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "29"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "48"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "82"
+          }
+        ],
+        "name": "Data Series Line 05"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "111"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "100"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "100"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "67"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "98"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "80"
+          }
+        ],
+        "name": "Data Series Line 06"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "100"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "30"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "40"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "60"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "20"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "50"
+          }
+        ],
+        "name": "Data Series Line 07"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "99"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "18"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "58"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "23"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "56"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "80"
+          }
+        ],
+        "name": "Data Series Line 08"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "89"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "26"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "72"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "59"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "45"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "86"
+          }
+        ],
+        "name": "Data Series Line 09"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "75"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "48"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "94"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "23"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "96"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "48"
+          }
+        ],
+        "name": "Data Series Line 10"
+      },
+      {
+        "data": [
+          {
+            "x": "Importance of Benefit",
+            "y": "74"
+          },
+          {
+            "x": "Number Set 1",
+            "y": "92"
+          },
+          {
+            "x": "Number Set 2",
+            "y": "32"
+          },
+          {
+            "x": "Number Set 3",
+            "y": "46"
+          },
+          {
+            "x": "Number Set 4",
+            "y": "27"
+          },
+          {
+            "x": "Number Set 5",
+            "y": "84"
+          }
+        ],
+        "name": "Data Series Line 11"
+      }
+    ]
+  }
+}
