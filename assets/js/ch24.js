@@ -25,59 +25,47 @@ function initHighChartWith(data) {
         temp.data = [];
         for (var j in data.data.series[i].data) {
             temp.data.push(data.data.series[i].data[j].y);
-            if(categories.length<data.data.series[i].data.length){
+            if (categories.length < data.data.series[i].data.length) {
                 categories.push(data.data.series[i].data[j].x);
             }
         }
         seriesdata.push(temp);
     }
-
     $('#container').highcharts({
         chart: {
             type: 'column'
         },
         title: {
-            text: 'Driver Chart(Negative)'
-        },
-        subtitle: {
-            text: 'Chart Title (n=215)'
+            text: 'Stacked column chart'
         },
         xAxis: {
-            categories: categories,
-            crosshair: false
+            categories: categories
         },
         yAxis: {
             min: 0,
             title: {
-                text: 'Rainfall (mm)',
-                enabled: false
+                text: ''
+            },
+            stackLabels: {
+                enabled: true,
+                style: {
+                    fontWeight: 'bold',
+                    color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                }
             }
-        },
-        tooltip: {
-            enabled: false
         },
         plotOptions: {
             column: {
-                pointPadding: 0.2,
-                borderWidth: 0,
+                stacking: 'percent',
                 dataLabels: {
                     enabled: true,
-                    format: "{y}%"
+                    color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+                    style: {
+                        textShadow: '0 0 3px black'
+                    }
                 }
             }
         },
         series: seriesdata
-        //    [{
-        //    name: 'Brand 1',
-        //    data: [49, 71, 96, 100, 44]
-        //
-        //}, {
-        //    name: 'Brand 2',
-        //    data: [83, 78, 98, 93, 100]
-        //
-        //}, {
-        //    name: 'Brand 3',
-        //    data: [48, 38, 39, 41, 47]
-        //}]
     });
 }

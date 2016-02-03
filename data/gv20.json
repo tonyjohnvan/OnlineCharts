@@ -1,0 +1,82 @@
+{
+  "data": {
+    "chartId": 14,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "Daily",
+            "y": 49
+          },
+          {
+            "x": "Twice in a week",
+            "y": 71
+          },
+          {
+            "x": "Once in a week",
+            "y": 96
+          },
+          {
+            "x": "Fortnightly",
+            "y": 100
+          },
+          {
+            "x": "Monthly",
+            "y": 44
+          }
+        ],
+        "name": "Brand 1"
+      },
+      {
+        "data": [
+          {
+            "x": "Daily",
+            "y": 83
+          },
+          {
+            "x": "Twice in a week",
+            "y": 78
+          },
+          {
+            "x": "Once in a week",
+            "y": 98
+          },
+          {
+            "x": "Fortnightly",
+            "y": 93
+          },
+          {
+            "x": "Monthly",
+            "y": 100
+          }
+        ],
+        "name": "Brand 2"
+      },
+      {
+        "data": [
+          {
+            "x": "Daily",
+            "y": 48
+          },
+          {
+            "x": "Twice in a week",
+            "y": 38
+          },
+          {
+            "x": "Once in a week",
+            "y": 39
+          },
+          {
+            "x": "Fortnightly",
+            "y": 41
+          },
+          {
+            "x": "Monthly",
+            "y": 47
+          }
+        ],
+        "name": "Brand 3"
+      }
+    ]
+  }
+}

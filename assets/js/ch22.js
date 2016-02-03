@@ -25,7 +25,7 @@ function initHighChartWith(data) {
         temp.data = [];
         for (var j in data.data.series[i].data) {
             temp.data.push(data.data.series[i].data[j].y);
-            if(categories.length<data.data.series[i].data.length){
+            if (categories.length < data.data.series[i].data.length) {
                 categories.push(data.data.series[i].data[j].x);
             }
         }
@@ -37,7 +37,7 @@ function initHighChartWith(data) {
             type: 'column'
         },
         title: {
-            text: 'Driver Chart(Negative)'
+            text: 'Clustered Cylinder Chart'
         },
         subtitle: {
             text: 'Chart Title (n=215)'
@@ -62,22 +62,10 @@ function initHighChartWith(data) {
                 borderWidth: 0,
                 dataLabels: {
                     enabled: true,
-                    format: "{y}%"
+                    format: "{y}<br>{y}%"
                 }
             }
         },
         series: seriesdata
-        //    [{
-        //    name: 'Brand 1',
-        //    data: [49, 71, 96, 100, 44]
-        //
-        //}, {
-        //    name: 'Brand 2',
-        //    data: [83, 78, 98, 93, 100]
-        //
-        //}, {
-        //    name: 'Brand 3',
-        //    data: [48, 38, 39, 41, 47]
-        //}]
     });
 }
