@@ -1,0 +1,97 @@
+{
+  "data": {
+    "chartId": 1,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "Attribute 1",
+            "y": 0
+          },
+          {
+            "x": "Attribute 2",
+            "y": -9
+          },
+          {
+            "x": "Attribute 3",
+            "y": -16
+          },
+          {
+            "x": "Attribute 4",
+            "y": 6
+          },
+          {
+            "x": "Attribute 5",
+            "y": 3
+          },
+          {
+            "x": "Attribute 6",
+            "y": -4
+          },
+          {
+            "x": "Attribute 7",
+            "y": -17
+          },
+          {
+            "x": "Attribute 8",
+            "y": 2
+          },
+          {
+            "x": "Attribute 9",
+            "y": -15
+          },
+          {
+            "x": "Attribute 10",
+            "y": -18
+          }
+        ],
+        "name": "Curaspot-G"
+      },
+      {
+        "data": [
+          {
+            "x": "Attribute 1",
+            "y": 1
+          },
+          {
+            "x": "Attribute 2",
+            "y": -13
+          },
+          {
+            "x": "Attribute 3",
+            "y": -13
+          },
+          {
+            "x": "Attribute 4",
+            "y": -10
+          },
+          {
+            "x": "Attribute 5",
+            "y": -5
+          },
+          {
+            "x": "Attribute 6",
+            "y": -4
+          },
+          {
+            "x": "Attribute 7",
+            "y": -4
+          },
+          {
+            "x": "Attribute 8",
+            "y": -14
+          },
+          {
+            "x": "Attribute 9",
+            "y": -20
+          },
+          {
+            "x": "Attribute 10",
+            "y": 5
+          }
+        ],
+        "name": "Curaspot Dermacontrol-G"
+      }
+    ]
+  }
+}
