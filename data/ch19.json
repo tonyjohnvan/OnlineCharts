@@ -1,0 +1,123 @@
+{
+  "data": {
+    "chartId": 1,
+    "series": [
+      {
+        "data": [
+          {
+            "x": "ProductX",
+            "y": "0"
+          },
+          {
+            "x": "Remicade",
+            "y": "18.2"
+          },
+          {
+            "x": "Cimzia",
+            "y": "30.3"
+          },
+          {
+            "x": "Entyvio",
+            "y": "28.3"
+          },
+          {
+            "x": "Humira",
+            "y": "23.2"
+          },
+          {
+            "x": "Other biologics",
+            "y": "0"
+          }
+        ],
+        "name": "Data Series Line 01"
+      },
+      {
+        "data": [
+          {
+            "x": "ProductX",
+            "y": "16.8"
+          },
+          {
+            "x": "Remicade",
+            "y": "10.1"
+          },
+          {
+            "x": "Cimzia",
+            "y": "28.2"
+          },
+          {
+            "x": "Entyvio",
+            "y": "26.4"
+          },
+          {
+            "x": "Humira",
+            "y": "18.5"
+          },
+          {
+            "x": "Other biologics",
+            "y": "0"
+          }
+        ],
+        "name": "Data Series Line 02"
+      },
+      {
+        "data": [
+          {
+            "x": "ProductX",
+            "y": "32.7"
+          },
+          {
+            "x": "Remicade",
+            "y": "0"
+          },
+          {
+            "x": "Cimzia",
+            "y": "23.8"
+          },
+          {
+            "x": "Entyvio",
+            "y": "23.1"
+          },
+          {
+            "x": "Humira",
+            "y": "20.4"
+          },
+          {
+            "x": "Other biologics",
+            "y": "0"
+          }
+        ],
+        "name": "Data Series Line 03"
+      },
+      {
+        "data": [
+          {
+            "x": "ProductX",
+            "y": "51"
+          },
+          {
+            "x": "Remicade",
+            "y": "0"
+          },
+          {
+            "x": "Cimzia",
+            "y": "0"
+          },
+          {
+            "x": "Entyvio",
+            "y": "43.7"
+          },
+          {
+            "x": "Humira",
+            "y": "0"
+          },
+          {
+            "x": "Other biologics",
+            "y": "5.3"
+          }
+        ],
+        "name": "Data Series Line 04"
+      }
+    ]
+  }
+}
