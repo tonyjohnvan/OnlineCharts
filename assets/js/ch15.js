@@ -51,7 +51,7 @@ function prepareTableWithData(json, callback) {
         for (var j = 0; j < dataToUse.series[i].data.length - 1; j++) {
             if (dataToUse.series[i].data[j].y.substr(0, 1) == '-') {
                 targetRow.append(
-                    '<td class="dataCell">\
+                    '<td class="dataCell bar">\
                         <div class="row">\
                             <div class="col-xs-4 text-right no-padding-right"><span class="gbar" style="width: ' + dataToUse.series[i].data[j].y.replace('-', '') + '"></span></div>\
                             <div class="col-xs-4 text-left no-padding-left"><span class="gbar" style="width: 0%"></span></div>\
@@ -60,7 +60,7 @@ function prepareTableWithData(json, callback) {
                     </td>');
             } else {
                 targetRow.append(
-                    '<td class="dataCell">\
+                    '<td class="dataCell bar">\
                         <div class="row">\
                             <div class="col-xs-4 text-right no-padding-right"><span class="gbar" style="width: 0%"></span></div>\
                             <div class="col-xs-4 text-left no-padding-left"><span class="gbar" style="width: ' + dataToUse.series[i].data[j].y.replace('-', '') + '"></span></div>\

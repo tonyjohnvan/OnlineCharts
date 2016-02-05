@@ -14,6 +14,10 @@
     padding: 10px 0 5px;
     line-height: 20px;
 }
+.dataCell.bar{
+    background: url("../img/chart15.jpg") 51px;
+    background-repeat: repeat-y;
+}
 .dataCell.firstCol{
     padding: 10px 10px 5px;
 }
