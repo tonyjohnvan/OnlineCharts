@@ -1,0 +1,67 @@
+{
+  "data": {
+    "chartId": 14,
+    "series": [
+      {
+        "name": "Overall Impression (To A and B)",
+        "colorByPoint": true,
+        "data": [
+          {
+            "name": "Poor",
+            "y": 56.33
+          },
+          {
+            "name": "Fair",
+            "y": 24.03
+          },
+          {
+            "name": "Average",
+            "y": 10.38
+          },
+          {
+            "name": "Good",
+            "y": 4.77
+          },
+          {
+            "name": "Excellent",
+            "y": 0.91
+          },
+          {
+            "name": "Others",
+            "y": 0.2
+          }
+        ]
+      },
+      {
+        "name": "Overall Impression (To B Only)",
+        "colorByPoint": true,
+        "data": [
+          {
+            "name": "Poor",
+            "y": 53.33
+          },
+          {
+            "name": "Fair",
+            "y": 14.03
+          },
+          {
+            "name": "Average",
+            "y": 5.38
+          },
+          {
+            "name": "Good",
+            "y": 9.77
+          },
+          {
+            "name": "Excellent",
+            "y": 10.91
+          },
+          {
+            "name": "Unknown",
+            "y": 3.2
+          }
+        ]
+      }
+    ]
+  }
+}
