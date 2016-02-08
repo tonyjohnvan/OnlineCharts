@@ -49,7 +49,6 @@ function initHighChartWith(data) {
         yAxis: {
             min: 0,
             title: {
-                text: 'Rainfall (mm)',
                 enabled: false
             }
         },

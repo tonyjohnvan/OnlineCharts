@@ -17,7 +17,7 @@ $(window).load(function () {
 });
 
 function loadData() {
-    jsonPath = 'data/gv15.json';
+    jsonPath = 'data/gv14r.json';
     $.getJSON(jsonPath)
         .done(function (json) {
             prepareTableWithData(json, function () {
@@ -38,10 +38,11 @@ function prepareTableWithData(json, callback) {
     dataWrapper.append('<thead class="tablehead"></thead>');
     $('.tablehead').append("<tr class='header-tr'></tr>");
     var tableHeader = $(".header-tr");
+
+    tableHeader.append("<th>" + dataToUse.series[0].data[2].x + "</th>");
     for (var i = 0; i < dataToUse.series[0].data.length - 1; i++) {
         tableHeader.append("<th class='fixed'>" + dataToUse.series[0].data[i].x + "</th>");
     }
-    tableHeader.append("<th>" + dataToUse.series[0].data[2].x + "</th>");
     //add rows:
     dataWrapper.append('<tbody class="tableBody"></tbody>');
     var bodyWrapper = $('.tableBody');
@@ -49,6 +50,7 @@ function prepareTableWithData(json, callback) {
     for (var i = 0; i < dataToUse.series.length; i++) {
         bodyWrapper.append("<tr id='dataR" + (i + 1) + "'></tr>");
         var targetRow = $("#dataR" + (i + 1));
+        targetRow.append('<td class="dataCell firstCol">' + (dataToUse.series[i].data[2].y) + '</td>');
         for (var j = 0; j < dataToUse.series[i].data.length - 1; j++) {
             if (dataToUse.series[i].data[j].y.substr(0, 1) == '-') {
                 targetRow.append(
@@ -71,7 +73,6 @@ function prepareTableWithData(json, callback) {
             }
 
         }
-        targetRow.append('<td class="dataCell firstCol">' + (dataToUse.series[i].data[2].y) + '</td>');
     }
 
     // call back function
