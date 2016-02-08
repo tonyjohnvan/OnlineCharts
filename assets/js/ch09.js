@@ -83,6 +83,9 @@ function prepareChartWithData(json, callback) {
           color: Highcharts.getOptions().colors[0]
         }
       },
+      credits: {
+        enabled: false
+      },
       labels: {
         style: {
           color: Highcharts.getOptions().colors[0]

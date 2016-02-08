@@ -53,6 +53,9 @@ function prepareChartWithData(json, callback) {
     legend: {
       enabled: false
     },
+    credits: {
+      enabled: false
+    },
     plotOptions: {
       series: {
         groupPadding: 0.1,
