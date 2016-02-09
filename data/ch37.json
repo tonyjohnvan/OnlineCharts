@@ -1,131 +1,104 @@
 {
-  "data": [
-    {
-      "id": "1",
-      "title": "Test Chart Data 01",
-      "theme": "1",
-      "rows": [
-        {
-          "id": "row1",
-          "title": "Simultaneous detection of multiple analytes on the same disposable (multiplexing) (RI=102)",
-          "point": [
-            {
-              "id": "1",
-              "value": 0,
-              "Tag": "Can process test only for Malaria & Dengue"
-            },
-            {
-              "id": "2",
-              "value": 100,
-              "Tag": "Can process test only for Malaria & Dengue"
-            }
-          ]
-        },
-        {
-          "id": "row2",
-          "title": "Inbuilt data printing capabilities (RI=112)",
-          "point": [
-            {
-              "id": "1",
-              "value": -64,
-              "Tag": "No printing capabilities?"
-            },
-            {
-              "id": "2",
-              "value": -10,
-              "Tag": "Capable of connecting to local printers wirelessly"
-            },
-            {
-              "id": "3",
-              "value": 0,
-              "Tag": "Instrument can print  directly"
-            },
-            {
-              "id": "4",
-              "value": 22,
-              "Tag": "Instrument can print  directly"
-            }
-          ]
-        },
-        {
-          "id": "row3",
-          "title": "Specificity for Dengue (NS1 and IgM\/IgG) (RI=98)",
-          "point": [
-            {
-              "id": "1",
-              "value": -70,
-              "Tag": "Provides Specificity of 75%"
-            },
-            {
-              "id": "2",
-              "value": -55,
-              "Tag": "Provides Specificity of 80%"
-            },
-            {
-              "id": "3",
-              "value": 0,
-              "Tag": "Provides Specificity of 85%"
-            },
-            {
-              "id": "4",
-              "value": 25,
-              "Tag": "Provides Specificity of 90%"
-            }
-          ]
-        },
-        {
-          "id": "row4",
-          "title": "Sensitivity for Dengue (NS1 and IgM\/IgG)  (RI=87)",
-          "point": [
-            {
-              "id": "1",
-              "value": -95,
-              "Tag": "Provides Sensitivity of 80% for Dengue (NS1 and IgM\/IgG)"
-            },
-            {
-              "id": "2",
-              "value": -77,
-              "Tag": "Provides Sensitivity of 90%"
-            },
-            {
-              "id": "3",
-              "value": -46,
-              "Tag": "Provides Sensitivity of 95%"
-            },
-            {
-              "id": "4",
-              "value": 0,
-              "Tag": "Provides Sensitivity of 100%"
-            }
-          ]
-        },
-        {
-          "id": "row5",
-          "title": "Inbuilt data printingcapabilities (RI=101)",
-          "point": [
-            {
-              "id": "1",
-              "value": -72,
-              "Tag": "Provides Specificity Test"
-            },
-            {
-              "id": "2",
-              "value": 0,
-              "Tag": "Provides Sensitivity"
-            },
-            {
-              "id": "3",
-              "value": 15,
-              "Tag": "Instrument can print indirectly"
-            },
-            {
-              "id": "4",
-              "value": 32,
-              "Tag": "Instrument can print indirectly"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "data": {
+    "chartId": "1",
+    "series": [
+      {
+        "name": "Simultaneous detection of multiple analytes on the same disposable (multiplexing) (RI=102)",
+        "data": [
+          {
+            "y": 0,
+            "x": "Can process test only for Malaria & Dengue"
+          },
+          {
+            "y": 100,
+            "x": "Can process test only for Malaria & Dengue"
+          }
+        ]
+      },
+      {
+        "name": "Inbuilt data printing capabilities (RI=112)",
+        "data": [
+          {
+            "y": -64,
+            "x": "No printing capabilities?"
+          },
+          {
+            "y": -10,
+            "x": "Capable of connecting to local printers wirelessly"
+          },
+          {
+            "y": 0,
+            "x": "Instrument can print  directly"
+          },
+          {
+            "y": 22,
+            "x": "Instrument can print  directly"
+          }
+        ]
+      },
+      {
+        "name": "Specificity for Dengue (NS1 and IgM\/IgG) (RI=98)",
+        "data": [
+          {
+            "y": -70,
+            "x": "Provides Specificity of 75%"
+          },
+          {
+            "y": -55,
+            "x": "Provides Specificity of 80%"
+          },
+          {
+            "y": 0,
+            "x": "Provides Specificity of 85%"
+          },
+          {
+            "y": 25,
+            "x": "Provides Specificity of 90%"
+          }
+        ]
+      },
+      {
+        "name": "Sensitivity for Dengue (NS1 and IgM\/IgG)  (RI=87)",
+        "data": [
+          {
+            "y": -95,
+            "x": "Provides Sensitivity of 80% for Dengue (NS1 and IgM\/IgG)"
+          },
+          {
+            "y": -77,
+            "x": "Provides Sensitivity of 90%"
+          },
+          {
+            "y": -46,
+            "x": "Provides Sensitivity of 95%"
+          },
+          {
+            "y": 0,
+            "x": "Provides Sensitivity of 100%"
+          }
+        ]
+      },
+      {
+        "name": "Inbuilt data printingcapabilities (RI=101)",
+        "data": [
+          {
+            "y": -72,
+            "x": "Provides Specificity Test"
+          },
+          {
+            "y": 0,
+            "x": "Provides Sensitivity"
+          },
+          {
+            "y": 15,
+            "x": "Instrument can print indirectly"
+          },
+          {
+            "y": 32,
+            "x": "Instrument can print indirectly"
+          }
+        ]
+      }
+    ]
+  }
 }
